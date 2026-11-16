@@ -18,3 +18,9 @@ frontend/.env.local
 .vscode/
 *.iml
 .DS_Store
+
+# Environment files
+.env*
+!.env.example
+frontend/.env.development
+frontend/.env.example

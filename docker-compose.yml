@@ -1,7 +1,7 @@
-# Local PostgreSQL 16 for development. Credentials come from .env (not committed).
+# Local PostgreSQL 18 for development. Credentials come from .env (not committed).
 services:
   postgres:
-    image: postgres:16
+    image: postgres:18
     container_name: kr-postgres
     environment:
       POSTGRES_DB: knowledge_resolution_db

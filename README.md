@@ -5,7 +5,7 @@ Status: **Phase 1, Milestone M1** (project setup). See `docs/` as it grows.
 ## Layout
 - `backend/` Spring Boot 3 (Java 21, Maven)
 - `frontend/` React + TypeScript + Vite + Tailwind
-- `database/migrations` Flyway migrations, `database/seed` dev-only seed data
+- `backend/src/main/resources/db/migration` Flyway migrations; `db/dev-seed` dev-only seed (dev profile only)
 - `docs/`, `postman/`
 
 ## Run (local development)

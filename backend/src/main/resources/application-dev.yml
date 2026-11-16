@@ -1,8 +1,8 @@
 # Local development ONLY. Activated with SPRING_PROFILES_ACTIVE=dev.
 spring:
   flyway:
-    # db/seed holds development-only sample data (added in M2). Never enable in production.
-    locations: classpath:db/migration,classpath:db/seed
+    # db/dev-seed holds development-only sample data (R__dev_seed_data.sql). Never enable in production.
+    locations: classpath:db/migration,classpath:db/dev-seed
 
 server:
   # Bind to localhost so the unauthenticated dev APIs are not reachable from other machines.
